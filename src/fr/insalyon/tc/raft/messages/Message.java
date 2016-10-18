@@ -1,4 +1,4 @@
-package raft.messages;
+package fr.insalyon.tc.raft.messages;
 
 public abstract class Message {
 

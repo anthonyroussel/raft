@@ -1,3 +1,4 @@
+package fr.insalyon.tc.raft;
 
 public enum NodeStatus {
 

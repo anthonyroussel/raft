@@ -1,3 +1,4 @@
+package fr.insalyon.tc.raft;
 import java.util.ArrayList;
 import java.util.List;
 

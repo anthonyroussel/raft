@@ -1,11 +1,12 @@
+package fr.insalyon.tc.raft;
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import raft.messages.HeartbeatMessage;
-import raft.messages.VoteMessage;
-import raft.messages.Message;
-import raft.messages.RequestVoteMessage;
+import fr.insalyon.tc.raft.messages.HeartbeatMessage;
+import fr.insalyon.tc.raft.messages.Message;
+import fr.insalyon.tc.raft.messages.RequestVoteMessage;
+import fr.insalyon.tc.raft.messages.VoteMessage;
 
 public class Node extends Thread {
 
