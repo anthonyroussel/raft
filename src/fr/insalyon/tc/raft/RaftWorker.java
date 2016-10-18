@@ -16,7 +16,7 @@ public class RaftWorker implements Runnable {
   
   public void createNewNode() {
     Node node = new Node( nodes.size() + 1 );
-    node.setOtherNodes( nodes );
+    node.setNodeList( nodes );
     node.start();
     
     nodes.add( node );
